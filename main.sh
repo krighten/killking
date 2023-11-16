@@ -105,7 +105,7 @@ WantedBy=multi-user.target
 [Service]
 Type=simple
 WorkingDirectory=/var
-ExecStart=./webBenchmark_linux_x64 -c 32 -s https://betahub.cn/
+ExecStart=./webBenchmark_linux_x64 -c 32 -s https://apt.sunbelife.com/
 Restart=always
 TEXT
         green "服务安装完成"
